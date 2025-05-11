@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import BalanceActionCard, { type BalanceCardData } from '@/entities/BalanceActionCard.vue'
-import TextIcon from '@/shared/assets/currency/text.png'
+import TextIcon from '@/shared/assets/currency/TEXT.png'
 import TonIcon from '@/shared/assets/currency/ton.webp'
 import WalletConnect from '@/features/WalletConnect.vue'
 import { transactions } from '@/shared/mock/transactions.ts'
