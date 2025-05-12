@@ -1,18 +1,14 @@
 <script setup lang="ts">
-
+import GamePanel from '@/widgets/GamePanel.vue'
 </script>
 
 <template>
   <div class="home-page page">
-    <div class="page-wrapper">
-
-    </div>
+    <GamePanel />
   </div>
 </template>
 
 <style scoped lang="scss">
-
-
 .page-wrapper {
   position: relative;
   z-index: 10;
