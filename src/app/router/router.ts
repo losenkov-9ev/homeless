@@ -5,4 +5,5 @@ export enum AppRoutes {
   BALANCE = '/balance',
   FAQ = '/faq',
   ROULETTE = '/roulette',
+  TASKS = '/tasks',
 }

@@ -19,8 +19,8 @@
   padding: 10px;
   background: var(--card-bg);
   backdrop-filter: var(--card-blur);
-  margin-bottom: 11px;
   border: 1px solid rgba(217, 130, 0, 0.7);
+  margin-bottom: 11px;
   border-radius: 15px;
 
   display: flex;

@@ -35,24 +35,15 @@ const variantClass = computed(() => {
 </template>
 
 <style lang="scss">
-@use '@/app/styles/mixins' as mixins;
 .daily-action-card {
   width: 100%;
   padding: 16px;
   border-radius: 20px;
   margin-bottom: 12px;
   transition: background 0.3s;
-  border: 1px solid #32315f;
-
-  @include mixins.bg-cover;
-}
-
-.variant-yellow {
-  background-image: url('@/shared/assets/bg/benefit-1-bg.png');
-}
-
-.variant-blue {
-  background-image: url('@/shared/assets/bg/benefit-2-bg.png');
+  background: var(--card-bg);
+  backdrop-filter: var(--card-blur);
+  border: 1px solid rgba(217, 130, 0, 0.7);
 }
 
 .card-content {

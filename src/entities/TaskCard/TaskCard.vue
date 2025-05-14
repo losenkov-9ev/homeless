@@ -52,18 +52,17 @@ const cardClass = computed(() => {
 </template>
 
 <style scoped lang="scss">
-@use '@/app/styles/mixins' as mixins;
-
 .task-card {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  @include mixins.bg-cover;
   padding: 9px 10px;
   border-radius: 16px;
   margin-bottom: 12px;
   color: #ffffff;
-  border: 1px solid #32315f;
+  background: var(--card-bg);
+  backdrop-filter: var(--card-blur);
+  border: 1px solid rgba(217, 130, 0, 0.7);
 }
 
 .task-info {
@@ -99,16 +98,6 @@ const cardClass = computed(() => {
   width: auto;
   padding: 5px 10px;
   line-height: 1;
-}
-
-.start-card {
-  background-image: url('@/shared/assets/bg/user-card-bg.png');
-}
-.done-card {
-  background-image: url('@/shared/assets/bg/referal-bg.png');
-}
-.claim-card {
-  background-image: url('@/shared/assets/bg/level-card-bg.png');
 }
 
 .task-action:disabled {
